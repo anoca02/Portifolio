@@ -1,0 +1,75 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.inicio {
+    background-color: rgb(248, 210, 248);
+    text-align: center;
+
+}
+.qs{
+    position: absolute; 
+    top: 35%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.pa{
+    position: absolute; 
+    top: 63%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.ss{
+    position: absolute; 
+    top: 94%; 
+    left: 34%; 
+    transform: translate(-50%, -50%);
+}
+
+.hs{
+    position: absolute; 
+    top: 94%; left: 60%; 
+    transform: translate(-50%, -50%);
+}
+
+.c{
+    position: absolute; 
+    top: 125%; left: 33%; 
+    transform: translate(-50%, -50%);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
